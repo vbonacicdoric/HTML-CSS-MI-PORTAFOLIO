@@ -3,18 +3,39 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Open Sans",sans-serif;
+    
+}
+
+body{
+    box-sizing: border-box;
+    color: grey;
+    padding: 30px;
 }
 /* estilos generales */
 
 h1{
     font-size: 45px;
+    font-weight: 400;
 }
 h3{
     font-size: 30px;
     font-weight: 400;
 }
 h2{
-    color: white;
+    color: turquoise;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+a{
+    color: turquoise;
+    padding-top: 20px;
+
+}
+
+a:visited{
+    color: rgb(255, 255, 255);
+    cursor: grabbing;
 }
 
 
@@ -61,7 +82,7 @@ header {
 
 .p{
     margin-bottom: 10px;
-    color: turquoise;
+    color: grey;
 }
 
 .navegationList{
@@ -76,7 +97,7 @@ header {
 
 .About-me{
     margin-bottom: 15px;
-    background-image: url("https://p4.wallpaperbetter.com/wallpaper/276/885/247/dark-blue-white-turquoise-wallpaper-preview.jpg");
+    background-image: url("https://static.vecteezy.com/system/resources/previews/000/952/755/non_2x/modern-black-lines-background-vector.jpg");
     height: 670px;
     width: 100%;
     background-size: cover;
@@ -88,3 +109,35 @@ header {
 }
 
 /* contenedor donde van mis proyectos */
+
+.proyectos{
+    color: turquoise;
+}
+
+.contenedor-flex{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+.smallbox{
+    height: 624px;
+    flex-basis: 0px;
+    flex-grow: 1;
+    min-width: 350px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.smallbox :hover{
+    transform: rotate(1.1);
+    color: white;
+
+}
+
+.smallbox img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
