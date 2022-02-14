@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans",sans-serif;
+}
+/* estilos generales */
+
+h1{
+    font-size: 45px;
+}
+h3{
+    font-size: 30px;
+    font-weight: 400;
+}
+h2{
+    color: white;
+}
+
+
+  /* encabezado */
+
+header {
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+  }
+
+.section-home{
+  height: 670px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  padding-top: 30px;
+  margin-bottom: 10px;
+
+}
+
+.section-home{
+    margin-bottom: 15px;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/000/952/755/non_2x/modern-black-lines-background-vector.jpg");
+}
+
+.section-home h1{
+    margin-bottom: 9px;
+    color: turquoise
+
+} 
+
+.section-home h3{
+    margin-bottom: 15px;
+    color: grey;
+}
+
+.section-home h2{
+    margin-bottom: 15px;
+    color: rgb(64, 224, 208);
+}
+
+.p{
+    margin-bottom: 10px;
+    color: turquoise;
+}
+
+.navegationList{
+    color: grey;
+    height: 44px;
+    background-color: black;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+
+}
+
+.About-me{
+    margin-bottom: 15px;
+    background-image: url("https://p4.wallpaperbetter.com/wallpaper/276/885/247/dark-blue-white-turquoise-wallpaper-preview.jpg");
+    height: 670px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 10px;
+}
+
+/* contenedor donde van mis proyectos */
