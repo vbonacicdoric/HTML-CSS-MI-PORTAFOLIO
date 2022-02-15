@@ -1,147 +1,60 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Open Sans",sans-serif;
-}
-
-body{
-    box-sizing: border-box;
-    color: grey;
-}
- 
-/* parte superior de la pagina */
-.contacto{
-  height: 40px;
-}
-
-.navegationList{
-    color: grey;
-    height: inherit;
-    background-color: black;
-    justify-content: space-around;
-    text-align:center;
-    position: relative;
-    display: inline-block;
-    white-space: nowrap;
-    letter-spacing: -0.01em;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 /* estilos generales */
 
-h1{
-    font-size: 45px;
-    font-weight: 400;
-    padding-bottom: 40px;
-}
-
-h3{
-    font-size: 30px;
-    font-weight: 400;
-    padding-bottom: 50px;
-}
-
-h2{
-    color: turquoise;
-    font-size: 40px;
-    font-weight: 400;
-}
-
-a{
-    color: turquoise;
-    padding-top: 40px;
-    padding-bottom: 50px;
-    text-align: center;
-}
-
-a:visited{
-    color: rgb(255, 255, 255);
-    cursor: grabbing;
-}
-
-
-.section-home{
-  height: 670px;
-  width: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  text-align: center;
-  padding-top: 30px;
-  margin-bottom: 10px;
-
-}
-
-.section-home{
-    width: 100%;
-    background-image: url("https://media.istockphoto.com/photos/abstract-black-background-picture-id1271067395?k=20&m=1271067395&s=170667a&w=0&h=GyL77zH2f4CpqGtt4TI0ozQI6PWmDs-MJCQLO1NZ62I=")
-}
-
-.section-home .h1{
-    margin-bottom: 9px;
-    color: turquoise;
-    
-
-.section-home .h3{
-    margin-bottom: 15px;
-    color: grey;
-}
-
-.section-home h2{
-    margin-bottom: 15px;
-    color: rgb(64, 224, 208);
-}
-
-.p{
-    margin-bottom: 10px;
-    color: grey;
-}
-
-
-.About-me{
-    margin-bottom: 15px;
-    background-image: url("https://media.istockphoto.com/photos/abstract-black-background-picture-id1271067395?k=20&m=1271067395&s=170667a&w=0&h=GyL77zH2f4CpqGtt4TI0ozQI6PWmDs-MJCQLO1NZ62I=");
-    width: 100%;
-    background-size: cover;
+.miPortafolio{
+    max-width: 100%;
+    height: 900px;
     background-repeat: no-repeat;
     background-position: center;
-    text-align: center;
-    padding-top: 30px;
-    margin-bottom: 10px;
+    background-size: cover;
+    background-image: url("https://st.depositphotos.com/1518767/3625/i/450/depositphotos_36252659-stock-photo-black-background-with-shiny-lines.jpg");
+    
 }
-
-/* contenedor donde van mis proyectos */
-
-.proyectos{
+#title{
     color: turquoise;
-    padding-bottom: 40px;
-}
-
-.contenedor-flex{
-    display:inline-flex;
-    flex-wrap: wrap;
     text-align: center;
-
+    margin-bottom: 200px;
+    padding: 150px;
 }
 
-.smallbox{
-    height: 624px;
-    flex-basis: 0px;
-    flex-grow: 1;
-    min-width: 350px;
-    text-align: center;
-    margin-top: 10px;
-    flex-direction: column;
-}
-
-.smallbox :hover{
-    transform: rotate(1.1);
-    color: white;
-
-}
-
-.smallbox img{
+.apple{
+    color: black;
+    background-color: turquoise;
+    font-family: Arial, Helvetica, sans-serif;
     width: 300px;
-    height: 300px;
-    object-fit:initial;
+    height: 200px;
+    
+}
+
+.a{
+    color: black;
+    text-decoration: none;
+}
+
+.conteiner-boxes{
+    background-color: black;
+    max-width: 100%;
+    height: 900px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+
+}
+
+.boxes{
+    background-color: turquoise;
+    width: 300px;
+    height: 200px;
+
+}
+
+.boxes:hover{
+    transform: rotate3d (1.1);
+    transition-duration: initial;
+    background-color: rgb(198, 236, 233);
 }
