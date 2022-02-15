@@ -3,14 +3,30 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Open Sans",sans-serif;
-    
 }
 
 body{
     box-sizing: border-box;
     color: grey;
-    padding: 30px;
 }
+ 
+/* parte superior de la pagina */
+.contacto{
+  height: 40px;
+}
+
+.navegationList{
+    color: grey;
+    height: inherit;
+    background-color: black;
+    justify-content: space-around;
+    text-align:center;
+    position: relative;
+    display: inline-block;
+    white-space: nowrap;
+    letter-spacing: -0.01em;
+}
+
 /* estilos generales */
 
 h1{
@@ -18,12 +34,13 @@ h1{
     font-weight: 400;
     padding-bottom: 40px;
 }
+
 h3{
     font-size: 30px;
     font-weight: 400;
     padding-bottom: 50px;
-
 }
+
 h2{
     color: turquoise;
     font-size: 40px;
@@ -32,10 +49,9 @@ h2{
 
 a{
     color: turquoise;
-    /* padding-top: 40px; */
+    padding-top: 40px;
     padding-bottom: 50px;
     text-align: center;
-
 }
 
 a:visited{
@@ -43,14 +59,6 @@ a:visited{
     cursor: grabbing;
 }
 
-
-  /* encabezado */
-
-header {
-    height: 40px;
-    background-color: rgba(0, 0, 0, 0.8);
-    text-align: center;
-  }
 
 .section-home{
   height: 670px;
@@ -65,17 +73,16 @@ header {
 }
 
 .section-home{
-    margin-bottom: 15px;
-    background-image: url("https://static.vecteezy.com/system/resources/previews/000/952/755/non_2x/modern-black-lines-background-vector.jpg");
+    width: 100%;
+    background-image: url("https://media.istockphoto.com/photos/abstract-black-background-picture-id1271067395?k=20&m=1271067395&s=170667a&w=0&h=GyL77zH2f4CpqGtt4TI0ozQI6PWmDs-MJCQLO1NZ62I=")
 }
 
-.section-home h1{
+.section-home .h1{
     margin-bottom: 9px;
-    color: turquoise
+    color: turquoise;
+    
 
-} 
-
-.section-home h3{
+.section-home .h3{
     margin-bottom: 15px;
     color: grey;
 }
@@ -90,20 +97,10 @@ header {
     color: grey;
 }
 
-.navegationList{
-    color: grey;
-    height: 44px;
-    background-color: black;
-    display: flex;
-    text-align: center;
-    justify-content: space-around;
-
-}
 
 .About-me{
     margin-bottom: 15px;
-    background-image: url("https://static.vecteezy.com/system/resources/previews/000/952/755/non_2x/modern-black-lines-background-vector.jpg");
-    height: 670px;
+    background-image: url("https://media.istockphoto.com/photos/abstract-black-background-picture-id1271067395?k=20&m=1271067395&s=170667a&w=0&h=GyL77zH2f4CpqGtt4TI0ozQI6PWmDs-MJCQLO1NZ62I=");
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
