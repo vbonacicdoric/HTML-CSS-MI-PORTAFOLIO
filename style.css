@@ -5,63 +5,76 @@
 
 /* estilos generales */
 
-.miPortafolio{
-    max-width: 100%;
-    height: 900px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-image: url("https://st.depositphotos.com/1518767/3625/i/450/depositphotos_36252659-stock-photo-black-background-with-shiny-lines.jpg");
+.miPortafolio {
+  max-width: 100%;
+  height: 900px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* background-image: url("https://st.depositphotos.com/1518767/3625/i/450/depositphotos_36252659-stock-photo-black-background-with-shiny-lines.jpg"); */
 }
 
-.a{
+.a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+.h2{
     color: white;
-    text-decoration: none;
-    text-align:center;
+    font-size: 50px;
 }
-
-.conteiner-boxes{
-    background-color: black;
-    max-width: 100%;
-    height: 900px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    display: flex;
-
-}
-
-.boxes{
-    background-color: turquoise;
-    width: 300px;
-    height: 250px;
-}
-
-.boxes:hover{
-    transition-duration: initial;
-    background-color: rgb(216, 240, 238);
-}
-
-
-
-.blast{
-    font-weight: 400;
-    display:inline-flex;
-    color: white;
-    text-shadow: rgb(199, 190, 230) 3px 2px;
-    font-size: 100px;
-    text-align: center;
-
-}
-
-.blast:hover{
-    transition: all 0.5s ease-out; 
+.h2:hover{
     color: turquoise;
-   transform: rotate(-360deg);
-    
-    
-
 }
 
+/* contenedor de proyectos */
 
-    
+.conteiner-boxes {
+  background-color: black;
+  max-width: 100%;
+  height: 900px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+}
+
+.boxes {
+  background-color: turquoise;
+  width: 300px;
+  height: 250px;
+}
+
+.boxes:hover {
+  transition-duration: initial;
+  background-color: rgb(216, 240, 238);
+}
+
+/* hi, I'm Valeria */
+.blast {
+  font-weight: 400;
+  /* display: inline-flex; */
+  color: white;
+  text-shadow: rgb(199, 190, 230) 3px 2px;
+  font-size: 150px;
+  text-align: center;
+}
+
+.blast:hover {
+  transition: all 0.5s ease-out;
+  color: turquoise;
+  transform: rotate(-360deg);
+}
+
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
