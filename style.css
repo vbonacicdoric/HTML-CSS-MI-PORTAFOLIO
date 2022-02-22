@@ -15,43 +15,41 @@
   text-align: center;
 }
 .blast {
-  font-weight: 400px;
+  font-weight: 500px;
   color: white;
   text-shadow: rgb(73, 74, 75) 4px 3px;
   font-size: 100px;
-  font-family: 'Inconsolata', monospace;
+  font-family: "Inconsolata", monospace;
 }
-.blast:hover{
+.blast:hover {
   transition: all 0.5s ease-out;
-  color:rgb(20, 255, 236);
-  transform: rotate(-360deg);
+  color: rgb(20, 255, 236);
+  transform: rotate(360deg);
 }
-.h2{
+.h2 {
   color: white;
   font-size: 30px;
   margin-bottom: 30px;
-  font-family: 'Inconsolata', monospace;
+  font-family: "Inconsolata", monospace;
 }
-.h2:hover{
+.h2:hover {
   color: rgb(20, 255, 236);
 }
-
 /* contenedor de proyectos */
 
-.conteiner-boxes{
+.conteiner-boxes {
   background-color: black;
   width: 100%;
   height: 900px;
 }
-.boxes{
+.boxes {
   background-color: rgb(20, 255, 236);
   width: 200px;
   height: 20px;
   display: flex;
 }
 
-.h2p{
+.h2p {
   color: aqua;
-  font-family: 'Inconsolata', monospace;
+  font-family: "Inconsolata", monospace;
 }
-
