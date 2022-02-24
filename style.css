@@ -6,9 +6,9 @@
 /* hi, I'm Valeria */
 .miPortafolio {
   width: 100%;
-  height: 900px;
-  position: absolute;
-  background-image: url("https://p4.wallpaperbetter.com/wallpaper/385/354/350/black-cubes-wallpaper-preview.jpg");
+  height: 958px;
+  /* position: absolute; */
+  background-image: url("https://images.unsplash.com/photo-1610438250910-01cb769c1334?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTR8NXdoR2lZX2s5dnd8fGVufDB8fHx8&auto=format&fit=crop&w=900&q=60");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -36,20 +36,80 @@
   color: rgb(20, 255, 236);
 }
 /* contenedor de proyectos */
-
-.conteiner-boxes {
-  background-color: black;
-  width: 100%;
-  height: 900px;
-}
-.boxes {
-  background-color: rgb(20, 255, 236);
-  width: 200px;
-  height: 20px;
+.bigbox {
   display: flex;
+  background-color: black;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-wrap: wrap;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.bigbox article {
+  height: 400px;
+  width: 40%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  background-color: rgba(245, 10, 128, 0.639);
+  background-position: center;
+  text-align: center;
+  justify-content: space-between;
+  font-family: "Inconsolata", monospace;
+  text-align: center;
+  font-size: 25px;
+}
+
+.proyecto1{
+  background-image: url("https://www.apple.com/v/home/aj/images/heroes/iphone-13-pro/hero_iphone_13pro__dhnsegysa42u_mediumtall.jpg");
+  opacity: 80%;
+}
+
+.proyecto2{
+  background-image: url("https://img.vixdata.io/pd/jpg-large/es/sites/default/files/p/productos-basicos-para-tu-rutina-de-skincare.jpg");
+  opacity: 80%;
+}
+.proyecto3{
+  background-image: url("https://images.unsplash.com/photo-1562440499-64c9a111f713?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE4fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=800&q=60");
+  background-position: center;
+  background-size: cover;
+  opacity: 80%;
+}
+.proyecto4{
+  background-image: url("https://raw.githubusercontent.com/vbonacicdoric/bikes-for-refugees/9f799b263cbd12a02272ae7db7dd0a2237b35d22/images/header-bike.jpg");
+  background-position: center;
+  background-size: cover;
+  opacity: 80%;
+}
+
+
+.bigbox article:hover {
+  transform: rotateZ(10deg);
+ 
 }
 
 .h2p {
   color: aqua;
   font-family: "Inconsolata", monospace;
+}
+
+.datos {
+  background-image: url("https://images.unsplash.com/photo-1617224908579-c92008fc08bb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzR8fHRlY25vbG9neXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=900&q=60");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 600px;
+}
+
+.datos li{
+  font-family: "Inconsolata", monospace;
+  color: rgba(245, 10, 128, 0.639);
+  text-align: center;
+  margin-block-end: 30px;
+  
+
 }
