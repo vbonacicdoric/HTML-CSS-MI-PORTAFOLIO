@@ -7,7 +7,6 @@
 .miPortafolio {
   width: 100%;
   height: 958px;
-  /* position: absolute; */
   background-image: url("https://images.unsplash.com/photo-1610438250910-01cb769c1334?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTR8NXdoR2lZX2s5dnd8fGVufDB8fHx8&auto=format&fit=crop&w=900&q=60");
   background-position: center;
   background-repeat: no-repeat;
@@ -18,23 +17,27 @@
   font-weight: 500px;
   color: white;
   text-shadow: rgb(73, 74, 75) 4px 3px;
-  font-size: 100px;
-  font-family: "Inconsolata", monospace;
+  font-size: 110px;
+  font-family: "Inconsolata";
 }
-.blast:hover {
-  transition: all 0.5s ease-out;
+
+.blast:hover{
   color: rgb(20, 255, 236);
-  transform: rotate(360deg);
+  transform: translateX(2em);
 }
+
 .h2 {
   color: white;
   font-size: 30px;
   margin-bottom: 30px;
-  font-family: "Inconsolata", monospace;
+  font-family: "Inconsolata";
 }
+
 .h2:hover {
   color: rgb(20, 255, 236);
+  transform: translate(120px, 9%);
 }
+
 /* contenedor de proyectos */
 .bigbox {
   display: flex;
@@ -58,42 +61,40 @@
   background-position: center;
   text-align: center;
   justify-content: space-between;
-  font-family: "Inconsolata", monospace;
+  font-family: "Inconsolata";
   text-align: center;
   font-size: 25px;
 }
 
-.proyecto1{
+.proyecto1 {
   background-image: url("https://www.apple.com/v/home/aj/images/heroes/iphone-13-pro/hero_iphone_13pro__dhnsegysa42u_mediumtall.jpg");
   opacity: 80%;
 }
 
-.proyecto2{
+.proyecto2 {
   background-image: url("https://img.vixdata.io/pd/jpg-large/es/sites/default/files/p/productos-basicos-para-tu-rutina-de-skincare.jpg");
   opacity: 80%;
 }
-.proyecto3{
+.proyecto3 {
   background-image: url("https://images.unsplash.com/photo-1562440499-64c9a111f713?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE4fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=800&q=60");
   background-position: center;
   background-size: cover;
   opacity: 80%;
 }
-.proyecto4{
+.proyecto4 {
   background-image: url("https://raw.githubusercontent.com/vbonacicdoric/bikes-for-refugees/9f799b263cbd12a02272ae7db7dd0a2237b35d22/images/header-bike.jpg");
   background-position: center;
   background-size: cover;
   opacity: 80%;
 }
 
-
 .bigbox article:hover {
   transform: rotateZ(10deg);
- 
 }
 
 .h2p {
   color: aqua;
-  font-family: "Inconsolata", monospace;
+  font-family: "Inconsolata";
 }
 
 .datos {
@@ -105,11 +106,10 @@
   height: 600px;
 }
 
-.datos li{
-  font-family: "Inconsolata", monospace;
+.datos li {
+  font-family: "Inconsolata";
   color: rgba(245, 10, 128, 0.639);
   text-align: center;
   margin-block-end: 30px;
-  
-
+  font-size: 30px;
 }
