@@ -12,18 +12,20 @@
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
+  
 }
 .blast {
   font-weight: 500px;
   color: white;
   text-shadow: rgb(73, 74, 75) 4px 3px;
-  font-size: 110px;
+  font-size: 120px;
   font-family: "Inconsolata";
+  transform: scale(1.1);
 }
 
 .blast:hover{
   color: rgb(20, 255, 236);
-  transform: translateX(2em);
+  transform: scale(1.1);
 }
 
 .h2 {
@@ -35,7 +37,7 @@
 
 .h2:hover {
   color: rgb(20, 255, 236);
-  transform: translate(120px, 9%);
+  transform: scale(1.1);
 }
 
 /* contenedor de proyectos */
@@ -89,7 +91,7 @@
 }
 
 .bigbox article:hover {
-  transform: rotateZ(10deg);
+  transform: scale(1.1);
 }
 
 .h2p {
@@ -108,8 +110,8 @@
 
 .datos li {
   font-family: "Inconsolata";
-  color: rgba(245, 10, 128, 0.639);
+  color: rgb(214, 210, 210);
   text-align: center;
   margin-block-end: 30px;
-  font-size: 30px;
+  font-size: 18px;
 }
